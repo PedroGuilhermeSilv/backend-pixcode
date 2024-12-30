@@ -1,0 +1,21 @@
+[project]
+name = "ba"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "guilherme", email = "vinespedro55@gmail.com"},
+]
+dependencies = [
+    "crcmod>=1.7",
+    "qrcode>=7.4.2",
+    "boto3>=1.35.29",
+    "fastapi[standard]>=0.115.0",
+    "pydantic>=2.9.2",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
